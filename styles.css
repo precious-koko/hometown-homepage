@@ -11,9 +11,7 @@
 
 h3{
   width:100%;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
+  text-align:center;
 }
 
 .activity-wrapper{
@@ -26,9 +24,30 @@ h3{
   margin-top:50px;
   margin-bottom:50px;
   display:flex;
+  flex-wrap:wrap;
   justify-content:space-around;
+  align-items:center;
   font-size:36px;
   font-wieght:bold;
+}
+
+.activity img{
+	max-width:270px;
+min-width:270px;
+  max-height:222px;
+}
+
+button{
+  margin:25px;
+  padding:10px 20px;
+  border:none;
+  border-radius: 20px;
+  background-color:#000000;
+  color:#ffffff;
+}
+
+button:hover{
+  background-color:#7FDEFF;
 }
 
 
